@@ -22,6 +22,9 @@ The Learn Section is designed to be an educational hub where students can deepen
 - **Interactive Learning:** Each type of racism is accompanied by a pop-up page that delves into the negative consequences associated with it.
 - **Addressing Racism:** Users will find a list of 10 actionable ways to combat racism in schools. These methods are crafted to be both practical and effective, encouraging students to take an active role in fostering an inclusive environment.
 
+### Additional Features:
+- Students who have completed the course will be able to record their accomplishments through the app 
+
 ## Future Developments
 While the app currently focuses on educating users about racism, future updates may include direct interaction with the SOAR team. This collaboration could potentially open new avenues for learning and activism, allowing the app to serve as a bridge between students and anti-racism organizations.
 
