@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		348D71452B5BA1FF0053259A /* Inclusive_Mind__iPad_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D71442B5BA1FF0053259A /* Inclusive_Mind__iPad_App.swift */; };
+		348D71472B5BA1FF0053259A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D71462B5BA1FF0053259A /* ContentView.swift */; };
+		348D71492B5BA2000053259A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348D71482B5BA2000053259A /* Assets.xcassets */; };
+		348D714C2B5BA2000053259A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348D714B2B5BA2000053259A /* Preview Assets.xcassets */; };
+		348D71562B5BA2000053259A /* Inclusive_Mind__iPad_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D71552B5BA2000053259A /* Inclusive_Mind__iPad_Tests.swift */; };
+		348D71602B5BA2000053259A /* Inclusive_Mind__iPad_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D715F2B5BA2000053259A /* Inclusive_Mind__iPad_UITests.swift */; };
+		348D71622B5BA2000053259A /* Inclusive_Mind__iPad_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D71612B5BA2000053259A /* Inclusive_Mind__iPad_UITestsLaunchTests.swift */; };
+		348D71752B5BC12D0053259A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D71742B5BC12D0053259A /* MainView.swift */; };
+		348D71772B5BC1360053259A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D71762B5BC1360053259A /* HomeView.swift */; };
+		348D71792B5BC13F0053259A /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D71782B5BC13F0053259A /* LearnView.swift */; };
+		348D717B2B5BC1460053259A /* SchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D717A2B5BC1460053259A /* SchoolView.swift */; };
+		348D717D2B5BC14C0053259A /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D717C2B5BC14C0053259A /* QuizView.swift */; };
+		348D718E2B5BC58E0053259A /* SchoolViewFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D718D2B5BC58E0053259A /* SchoolViewFramework.swift */; };
+		348D71902B5BC5BF0053259A /* SchoolBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D718F2B5BC5BF0053259A /* SchoolBoxView.swift */; };
+		348D71922B5BC5D90053259A /* InqueryPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D71912B5BC5D90053259A /* InqueryPopView.swift */; };
+		348D71942B5BC60F0053259A /* SchoolFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D71932B5BC60F0053259A /* SchoolFramework.swift */; };
+		348D71962B5BC6840053259A /* IconFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D71952B5BC6840053259A /* IconFramework.swift */; };
+		34A277382B732DDB00F844D6 /* RacismCardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A277372B732DDB00F844D6 /* RacismCardBackView.swift */; };
+		34A2773A2B735BA100F844D6 /* LearnCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A277392B735BA100F844D6 /* LearnCardView.swift */; };
+		34A2773C2B74E9CC00F844D6 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A2773B2B74E9CC00F844D6 /* PopUpView.swift */; };
+		34B8BAD22B6FB33600EF90D0 /* LearnCardFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B8BAD12B6FB33600EF90D0 /* LearnCardFramework.swift */; };
+		34B8BAD42B6FB34700EF90D0 /* RacismCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B8BAD32B6FB34700EF90D0 /* RacismCardView.swift */; };
+		AD6C99A72B6866CB00366934 /* QuizResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C99A62B6866CB00366934 /* QuizResultView.swift */; };
+		AD6C99A92B68D61500366934 /* BadgeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C99A82B68D61500366934 /* BadgeManager.swift */; };
+		ADB1CDD22B66D48A00D6DDFF /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1CDD12B66D48A00D6DDFF /* BadgeView.swift */; };
+		ADB1CDD42B66D49400D6DDFF /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1CDD32B66D49400D6DDFF /* SectionView.swift */; };
+		ADB1CDD62B66D4A900D6DDFF /* QuizContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1CDD52B66D4A900D6DDFF /* QuizContentsView.swift */; };
+		ADB1CDE22B67DA3600D6DDFF /* Section1Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1CDE12B67DA3600D6DDFF /* Section1Quiz.swift */; };
+		ADB1CDE42B67DA4100D6DDFF /* Section2Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1CDE32B67DA4100D6DDFF /* Section2Quiz.swift */; };
+		ADB1CDE62B67DA4A00D6DDFF /* Section3Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1CDE52B67DA4A00D6DDFF /* Section3Quiz.swift */; };
+		ADB1CDE82B67F15E00D6DDFF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1CDE72B67F15E00D6DDFF /* Question.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		348D71522B5BA2000053259A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 348D71392B5BA1FF0053259A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 348D71402B5BA1FF0053259A;
+			remoteInfo = "Inclusive Mind (iPad)";
+		};
+		348D715C2B5BA2000053259A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 348D71392B5BA1FF0053259A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 348D71402B5BA1FF0053259A;
+			remoteInfo = "Inclusive Mind (iPad)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		348D71412B5BA1FF0053259A /* Inclusive Mind (iPad).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inclusive Mind (iPad).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		348D71442B5BA1FF0053259A /* Inclusive_Mind__iPad_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inclusive_Mind__iPad_App.swift; sourceTree = "<group>"; };
+		348D71462B5BA1FF0053259A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		348D71482B5BA2000053259A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		348D714B2B5BA2000053259A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		348D71512B5BA2000053259A /* Inclusive Mind (iPad)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inclusive Mind (iPad)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		348D71552B5BA2000053259A /* Inclusive_Mind__iPad_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inclusive_Mind__iPad_Tests.swift; sourceTree = "<group>"; };
+		348D715B2B5BA2000053259A /* Inclusive Mind (iPad)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inclusive Mind (iPad)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		348D715F2B5BA2000053259A /* Inclusive_Mind__iPad_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inclusive_Mind__iPad_UITests.swift; sourceTree = "<group>"; };
+		348D71612B5BA2000053259A /* Inclusive_Mind__iPad_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inclusive_Mind__iPad_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		348D71742B5BC12D0053259A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		348D71762B5BC1360053259A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		348D71782B5BC13F0053259A /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		348D717A2B5BC1460053259A /* SchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SchoolView.swift; path = ../SchoolView.swift; sourceTree = "<group>"; };
+		348D717C2B5BC14C0053259A /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		348D718D2B5BC58E0053259A /* SchoolViewFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolViewFramework.swift; sourceTree = "<group>"; };
+		348D718F2B5BC5BF0053259A /* SchoolBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBoxView.swift; sourceTree = "<group>"; };
+		348D71912B5BC5D90053259A /* InqueryPopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InqueryPopView.swift; sourceTree = "<group>"; };
+		348D71932B5BC60F0053259A /* SchoolFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolFramework.swift; sourceTree = "<group>"; };
+		348D71952B5BC6840053259A /* IconFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFramework.swift; sourceTree = "<group>"; };
+		34A277372B732DDB00F844D6 /* RacismCardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacismCardBackView.swift; sourceTree = "<group>"; };
+		34A277392B735BA100F844D6 /* LearnCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCardView.swift; sourceTree = "<group>"; };
+		34A2773B2B74E9CC00F844D6 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		34B8BAD12B6FB33600EF90D0 /* LearnCardFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCardFramework.swift; sourceTree = "<group>"; };
+		34B8BAD32B6FB34700EF90D0 /* RacismCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacismCardView.swift; sourceTree = "<group>"; };
+		AD6C99A62B6866CB00366934 /* QuizResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
+		AD6C99A82B68D61500366934 /* BadgeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeManager.swift; sourceTree = "<group>"; };
+		ADB1CDD12B66D48A00D6DDFF /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		ADB1CDD32B66D49400D6DDFF /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		ADB1CDD52B66D4A900D6DDFF /* QuizContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizContentsView.swift; sourceTree = "<group>"; };
+		ADB1CDE12B67DA3600D6DDFF /* Section1Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section1Quiz.swift; sourceTree = "<group>"; };
+		ADB1CDE32B67DA4100D6DDFF /* Section2Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section2Quiz.swift; sourceTree = "<group>"; };
+		ADB1CDE52B67DA4A00D6DDFF /* Section3Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section3Quiz.swift; sourceTree = "<group>"; };
+		ADB1CDE72B67F15E00D6DDFF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		348D713E2B5BA1FF0053259A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348D714E2B5BA2000053259A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348D71582B5BA2000053259A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		348D71382B5BA1FF0053259A = {
+			isa = PBXGroup;
+			children = (
+				348D71432B5BA1FF0053259A /* Inclusive Mind (iPad) */,
+				348D71542B5BA2000053259A /* Inclusive Mind (iPad)Tests */,
+				348D715E2B5BA2000053259A /* Inclusive Mind (iPad)UITests */,
+				348D71422B5BA1FF0053259A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		348D71422B5BA1FF0053259A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				348D71412B5BA1FF0053259A /* Inclusive Mind (iPad).app */,
+				348D71512B5BA2000053259A /* Inclusive Mind (iPad)Tests.xctest */,
+				348D715B2B5BA2000053259A /* Inclusive Mind (iPad)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		348D71432B5BA1FF0053259A /* Inclusive Mind (iPad) */ = {
+			isa = PBXGroup;
+			children = (
+				348D71442B5BA1FF0053259A /* Inclusive_Mind__iPad_App.swift */,
+				348D71462B5BA1FF0053259A /* ContentView.swift */,
+				348D71742B5BC12D0053259A /* MainView.swift */,
+				348D71762B5BC1360053259A /* HomeView.swift */,
+				34A2773B2B74E9CC00F844D6 /* PopUpView.swift */,
+				34A2773D2B75B7A600F844D6 /* Learn */,
+				ADB1CDD02B6695B700D6DDFF /* Quiz */,
+				348D71802B5BC51F0053259A /* School Views */,
+				348D71482B5BA2000053259A /* Assets.xcassets */,
+				348D714A2B5BA2000053259A /* Preview Content */,
+			);
+			path = "Inclusive Mind (iPad)";
+			sourceTree = "<group>";
+		};
+		348D714A2B5BA2000053259A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				348D714B2B5BA2000053259A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		348D71542B5BA2000053259A /* Inclusive Mind (iPad)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				348D71552B5BA2000053259A /* Inclusive_Mind__iPad_Tests.swift */,
+			);
+			path = "Inclusive Mind (iPad)Tests";
+			sourceTree = "<group>";
+		};
+		348D715E2B5BA2000053259A /* Inclusive Mind (iPad)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				348D715F2B5BA2000053259A /* Inclusive_Mind__iPad_UITests.swift */,
+				348D71612B5BA2000053259A /* Inclusive_Mind__iPad_UITestsLaunchTests.swift */,
+			);
+			path = "Inclusive Mind (iPad)UITests";
+			sourceTree = "<group>";
+		};
+		348D71802B5BC51F0053259A /* School Views */ = {
+			isa = PBXGroup;
+			children = (
+				348D71952B5BC6840053259A /* IconFramework.swift */,
+				348D718D2B5BC58E0053259A /* SchoolViewFramework.swift */,
+				348D71912B5BC5D90053259A /* InqueryPopView.swift */,
+				348D71932B5BC60F0053259A /* SchoolFramework.swift */,
+				348D718F2B5BC5BF0053259A /* SchoolBoxView.swift */,
+				348D717A2B5BC1460053259A /* SchoolView.swift */,
+			);
+			path = "School Views";
+			sourceTree = "<group>";
+		};
+		34A2773D2B75B7A600F844D6 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				348D71782B5BC13F0053259A /* LearnView.swift */,
+				34B8BAD12B6FB33600EF90D0 /* LearnCardFramework.swift */,
+				34A277392B735BA100F844D6 /* LearnCardView.swift */,
+				34B8BAD32B6FB34700EF90D0 /* RacismCardView.swift */,
+				34A277372B732DDB00F844D6 /* RacismCardBackView.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		ADB1CDD02B6695B700D6DDFF /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				348D717C2B5BC14C0053259A /* QuizView.swift */,
+				ADB1CDE72B67F15E00D6DDFF /* Question.swift */,
+				ADB1CDE12B67DA3600D6DDFF /* Section1Quiz.swift */,
+				ADB1CDE32B67DA4100D6DDFF /* Section2Quiz.swift */,
+				ADB1CDE52B67DA4A00D6DDFF /* Section3Quiz.swift */,
+				ADB1CDD12B66D48A00D6DDFF /* BadgeView.swift */,
+				AD6C99A82B68D61500366934 /* BadgeManager.swift */,
+				ADB1CDD32B66D49400D6DDFF /* SectionView.swift */,
+				ADB1CDD52B66D4A900D6DDFF /* QuizContentsView.swift */,
+				AD6C99A62B6866CB00366934 /* QuizResultView.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		348D71402B5BA1FF0053259A /* Inclusive Mind (iPad) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348D71652B5BA2000053259A /* Build configuration list for PBXNativeTarget "Inclusive Mind (iPad)" */;
+			buildPhases = (
+				348D713D2B5BA1FF0053259A /* Sources */,
+				348D713E2B5BA1FF0053259A /* Frameworks */,
+				348D713F2B5BA1FF0053259A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inclusive Mind (iPad)";
+			productName = "Inclusive Mind (iPad)";
+			productReference = 348D71412B5BA1FF0053259A /* Inclusive Mind (iPad).app */;
+			productType = "com.apple.product-type.application";
+		};
+		348D71502B5BA2000053259A /* Inclusive Mind (iPad)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348D71682B5BA2000053259A /* Build configuration list for PBXNativeTarget "Inclusive Mind (iPad)Tests" */;
+			buildPhases = (
+				348D714D2B5BA2000053259A /* Sources */,
+				348D714E2B5BA2000053259A /* Frameworks */,
+				348D714F2B5BA2000053259A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				348D71532B5BA2000053259A /* PBXTargetDependency */,
+			);
+			name = "Inclusive Mind (iPad)Tests";
+			productName = "Inclusive Mind (iPad)Tests";
+			productReference = 348D71512B5BA2000053259A /* Inclusive Mind (iPad)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		348D715A2B5BA2000053259A /* Inclusive Mind (iPad)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348D716B2B5BA2000053259A /* Build configuration list for PBXNativeTarget "Inclusive Mind (iPad)UITests" */;
+			buildPhases = (
+				348D71572B5BA2000053259A /* Sources */,
+				348D71582B5BA2000053259A /* Frameworks */,
+				348D71592B5BA2000053259A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				348D715D2B5BA2000053259A /* PBXTargetDependency */,
+			);
+			name = "Inclusive Mind (iPad)UITests";
+			productName = "Inclusive Mind (iPad)UITests";
+			productReference = 348D715B2B5BA2000053259A /* Inclusive Mind (iPad)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		348D71392B5BA1FF0053259A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					348D71402B5BA1FF0053259A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					348D71502B5BA2000053259A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 348D71402B5BA1FF0053259A;
+					};
+					348D715A2B5BA2000053259A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 348D71402B5BA1FF0053259A;
+					};
+				};
+			};
+			buildConfigurationList = 348D713C2B5BA1FF0053259A /* Build configuration list for PBXProject "Inclusive Mind (iPad)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 348D71382B5BA1FF0053259A;
+			productRefGroup = 348D71422B5BA1FF0053259A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				348D71402B5BA1FF0053259A /* Inclusive Mind (iPad) */,
+				348D71502B5BA2000053259A /* Inclusive Mind (iPad)Tests */,
+				348D715A2B5BA2000053259A /* Inclusive Mind (iPad)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		348D713F2B5BA1FF0053259A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348D714C2B5BA2000053259A /* Preview Assets.xcassets in Resources */,
+				348D71492B5BA2000053259A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348D714F2B5BA2000053259A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348D71592B5BA2000053259A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		348D713D2B5BA1FF0053259A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348D717B2B5BC1460053259A /* SchoolView.swift in Sources */,
+				34A2773C2B74E9CC00F844D6 /* PopUpView.swift in Sources */,
+				348D71792B5BC13F0053259A /* LearnView.swift in Sources */,
+				ADB1CDD42B66D49400D6DDFF /* SectionView.swift in Sources */,
+				ADB1CDD62B66D4A900D6DDFF /* QuizContentsView.swift in Sources */,
+				348D718E2B5BC58E0053259A /* SchoolViewFramework.swift in Sources */,
+				34B8BAD22B6FB33600EF90D0 /* LearnCardFramework.swift in Sources */,
+				ADB1CDE82B67F15E00D6DDFF /* Question.swift in Sources */,
+				348D71922B5BC5D90053259A /* InqueryPopView.swift in Sources */,
+				348D71472B5BA1FF0053259A /* ContentView.swift in Sources */,
+				AD6C99A72B6866CB00366934 /* QuizResultView.swift in Sources */,
+				34B8BAD42B6FB34700EF90D0 /* RacismCardView.swift in Sources */,
+				ADB1CDE22B67DA3600D6DDFF /* Section1Quiz.swift in Sources */,
+				ADB1CDE62B67DA4A00D6DDFF /* Section3Quiz.swift in Sources */,
+				348D71942B5BC60F0053259A /* SchoolFramework.swift in Sources */,
+				348D71772B5BC1360053259A /* HomeView.swift in Sources */,
+				34A277382B732DDB00F844D6 /* RacismCardBackView.swift in Sources */,
+				ADB1CDD22B66D48A00D6DDFF /* BadgeView.swift in Sources */,
+				348D717D2B5BC14C0053259A /* QuizView.swift in Sources */,
+				ADB1CDE42B67DA4100D6DDFF /* Section2Quiz.swift in Sources */,
+				348D71752B5BC12D0053259A /* MainView.swift in Sources */,
+				348D71962B5BC6840053259A /* IconFramework.swift in Sources */,
+				348D71902B5BC5BF0053259A /* SchoolBoxView.swift in Sources */,
+				34A2773A2B735BA100F844D6 /* LearnCardView.swift in Sources */,
+				348D71452B5BA1FF0053259A /* Inclusive_Mind__iPad_App.swift in Sources */,
+				AD6C99A92B68D61500366934 /* BadgeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348D714D2B5BA2000053259A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348D71562B5BA2000053259A /* Inclusive_Mind__iPad_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348D71572B5BA2000053259A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348D71602B5BA2000053259A /* Inclusive_Mind__iPad_UITests.swift in Sources */,
+				348D71622B5BA2000053259A /* Inclusive_Mind__iPad_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		348D71532B5BA2000053259A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 348D71402B5BA1FF0053259A /* Inclusive Mind (iPad) */;
+			targetProxy = 348D71522B5BA2000053259A /* PBXContainerItemProxy */;
+		};
+		348D715D2B5BA2000053259A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 348D71402B5BA1FF0053259A /* Inclusive Mind (iPad) */;
+			targetProxy = 348D715C2B5BA2000053259A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		348D71632B5BA2000053259A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		348D71642B5BA2000053259A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		348D71662B5BA2000053259A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Inclusive Mind (iPad)/Preview Content\"";
+				DEVELOPMENT_TEAM = RASZ5V56S7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oliver-Park.Inclusive-Mind--iPad-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		348D71672B5BA2000053259A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Inclusive Mind (iPad)/Preview Content\"";
+				DEVELOPMENT_TEAM = RASZ5V56S7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oliver-Park.Inclusive-Mind--iPad-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		348D71692B5BA2000053259A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RASZ5V56S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oliver-Park.Inclusive-Mind--iPad-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inclusive Mind (iPad).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Inclusive Mind (iPad)";
+			};
+			name = Debug;
+		};
+		348D716A2B5BA2000053259A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RASZ5V56S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oliver-Park.Inclusive-Mind--iPad-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Inclusive Mind (iPad).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Inclusive Mind (iPad)";
+			};
+			name = Release;
+		};
+		348D716C2B5BA2000053259A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RASZ5V56S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oliver-Park.Inclusive-Mind--iPad-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Inclusive Mind (iPad)";
+			};
+			name = Debug;
+		};
+		348D716D2B5BA2000053259A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RASZ5V56S7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Oliver-Park.Inclusive-Mind--iPad-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Inclusive Mind (iPad)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		348D713C2B5BA1FF0053259A /* Build configuration list for PBXProject "Inclusive Mind (iPad)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348D71632B5BA2000053259A /* Debug */,
+				348D71642B5BA2000053259A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348D71652B5BA2000053259A /* Build configuration list for PBXNativeTarget "Inclusive Mind (iPad)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348D71662B5BA2000053259A /* Debug */,
+				348D71672B5BA2000053259A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348D71682B5BA2000053259A /* Build configuration list for PBXNativeTarget "Inclusive Mind (iPad)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348D71692B5BA2000053259A /* Debug */,
+				348D716A2B5BA2000053259A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348D716B2B5BA2000053259A /* Build configuration list for PBXNativeTarget "Inclusive Mind (iPad)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348D716C2B5BA2000053259A /* Debug */,
+				348D716D2B5BA2000053259A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 348D71392B5BA1FF0053259A /* Project object */;
+}
